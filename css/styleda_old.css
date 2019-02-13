@@ -1,0 +1,114 @@
+* { margin: 0; padding: 0; }
+body { font: 14px/1.4 Georgia, serif; }
+
+article, aside, figure, footer, header, nav, section { display: block; }
+#wrap{
+background: url(../img/splash/bg.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:900px;
+  min-width:1489px;
+}
+#left-wrap{
+float:left;
+margin-left:100px;
+}
+
+#right-wrap{
+float:right;
+margin-right:100px;
+}
+
+.content-box{
+margin:0 auto;
+width:100%;
+position:relative;
+top:150px;
+text-align:center;
+}
+
+.content-box-DA{
+margin:0 auto;
+width:100%;
+position:relative;
+left:200px;
+top:200px;
+text-align:center;
+}
+
+.text{
+text-decoration:none;
+font-family: open sans-serif;
+color:black;
+}
+
+.text a hover{
+text-decoration: underline;
+color:gray;
+
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* Styles */
+
+}
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+/* Styles */
+
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
